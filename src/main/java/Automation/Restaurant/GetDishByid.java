@@ -1,6 +1,7 @@
 package Automation.Restaurant;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import Pojo.Dish.Dish;
 import Pojo.Dish.DishResponse;
@@ -15,8 +16,9 @@ import static io.restassured.RestAssured.given;
 
 
 public class GetDishByid {
+	@Test
 	
-public static void main(String[] args) {
+public void getDishbyid() {
 		
 		RequestSpecification req = new RequestSpecBuilder().setBaseUri("http://localhost:8080/restaurants").setContentType(ContentType.JSON).build();
 

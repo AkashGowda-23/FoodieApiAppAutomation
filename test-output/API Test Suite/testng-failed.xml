@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Automation.Listners"/>
+  </listeners>
+  <test thread-count="5" name="Add Restaurant Test(failed)">
+    <classes>
+      <class name="Automation.AddRestaurant">
+        <methods>
+          <include name="Addresto"/>
+        </methods>
+      </class> <!-- Automation.AddRestaurant -->
+    </classes>
+  </test> <!-- Add Restaurant Test(failed) -->
+  <test thread-count="5" name="Getallorders(failed)">
+    <classes>
+      <class name="Automation.Admin.GetAllOrders">
+        <methods>
+          <include name="getallorder"/>
+        </methods>
+      </class> <!-- Automation.Admin.GetAllOrders -->
+    </classes>
+  </test> <!-- Getallorders(failed) -->
+  <test thread-count="5" name="Add dish(failed)">
+    <classes>
+      <class name="Automation.Restaurant.AddDish">
+        <methods>
+          <include name="Adddish"/>
+        </methods>
+      </class> <!-- Automation.Restaurant.AddDish -->
+    </classes>
+  </test> <!-- Add dish(failed) -->
+  <test thread-count="5" name="disable dish(failed)">
+    <classes>
+      <class name="Automation.Restaurant.Disabledish">
+        <methods>
+          <include name="disabledih"/>
+        </methods>
+      </class> <!-- Automation.Restaurant.Disabledish -->
+    </classes>
+  </test> <!-- disable dish(failed) -->
+  <test thread-count="5" name="enable dish(failed)">
+    <classes>
+      <class name="Automation.Restaurant.EnableDish">
+        <methods>
+          <include name="enableDish"/>
+        </methods>
+      </class> <!-- Automation.Restaurant.EnableDish -->
+    </classes>
+  </test> <!-- enable dish(failed) -->
+  <test thread-count="5" name=" dishbyid(failed)">
+    <classes>
+      <class name="Automation.Restaurant.GetDishByid">
+        <methods>
+          <include name="getDishbyid"/>
+        </methods>
+      </class> <!-- Automation.Restaurant.GetDishByid -->
+    </classes>
+  </test> <!--  dishbyid(failed) -->
+  <test thread-count="5" name=" updatedish(failed)">
+    <classes>
+      <class name="Automation.Restaurant.UpdateDish">
+        <methods>
+          <include name="updatedish"/>
+        </methods>
+      </class> <!-- Automation.Restaurant.UpdateDish -->
+    </classes>
+  </test> <!--  updatedish(failed) -->
+</suite> <!-- Failed suite [API Test Suite] -->

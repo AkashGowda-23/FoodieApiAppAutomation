@@ -1,6 +1,7 @@
 package Automation.Restaurant;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import Pojo.Dish.Dish;
 import Pojo.Dish.DishResponse;
@@ -13,7 +14,8 @@ import io.restassured.specification.ResponseSpecification;
 import static io.restassured.RestAssured.given;
 
 public class UpdateDish {
-public static void main(String[] args) {
+	@Test
+public void updatedish(){
 		
 		RequestSpecification req = new RequestSpecBuilder().setBaseUri("http://localhost:8080/restaurants").setContentType(ContentType.JSON).build();
 

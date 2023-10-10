@@ -1,0 +1,88 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+ <listeners>
+        <listener class-name="Automation.Listners" />
+    </listeners>
+    <test name="Add Restaurant Test">
+        <classes>
+            <class name="Automation.AddRestaurant" />
+        </classes>
+    </test>
+    <test name="Get All Restaurant Test">
+        <classes>
+            <class name="Automation.GetAllRestaurant" />
+        </classes>
+    </test>
+        <test name="Approve restaurant">
+        <classes>
+            <class name="Automation.Admin.ApproveRestaurant" />
+        </classes>
+    </test>
+       <test name="Getallorders">
+        <classes>
+            <class name="Automation.Admin.GetAllOrders" />
+        </classes>
+    </test>
+       <test name="Getallrating">
+        <classes>
+            <class name="Automation.Admin.GetAllRating" />
+        </classes>
+    </test>
+    
+       <test name="RejectRestaurant">
+        <classes>
+            <class name="Automation.Admin.RejectRestaurant" />
+        </classes>
+    </test>
+     <test name="Add dish">
+        <classes>
+            <class name="Automation.Restaurant.AddDish" />
+        </classes>
+    </test>
+     <test name="delete dish">
+        <classes>
+            <class name="Automation.Restaurant.DeleteDish" />
+        </classes>
+    </test>
+     <test name="disable dish">
+        <classes>
+            <class name="Automation.Restaurant.Disabledish" />
+        </classes>
+    </test>
+     <test name="enable dish">
+        <classes>
+            <class name="Automation.Restaurant.EnableDish" />
+        </classes>
+    </test>
+    <test name=" dishbyid">
+        <classes>
+            <class name="Automation.Restaurant.GetDishByid" />
+        </classes>
+    </test>
+    <test name=" updatedish">
+        <classes>
+            <class name="Automation.Restaurant.UpdateDish" />
+        </classes>
+    </test>
+    <test name=" get resataurant by location">
+        <classes>
+            <class name="Automation.user.GetRestaurantByLoction" />
+        </classes>
+    </test>
+     <test name=" get resataurant by name">
+        <classes>
+            <class name="Automation.user.GetRestaurantByName" />
+        </classes>
+    </test>
+    <test name="give rating">
+        <classes>
+            <class name="Automation.user.GiveRating" />
+        </classes>
+    </test>
+    <test name="place order">
+        <classes>
+            <class name="Automation.user.PlaceOrder" />
+        </classes>
+    </test>
+    
+</suite>

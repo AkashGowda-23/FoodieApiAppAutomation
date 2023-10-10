@@ -3,6 +3,7 @@ package Automation.Restaurant;
 import static io.restassured.RestAssured.given;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -12,7 +13,8 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 public class Disabledish {
-	public static void main(String[] args) {
+	@Test
+	public void disabledih() {
         RequestSpecification req = new RequestSpecBuilder()
                 .setBaseUri("http://localhost:8080/restaurants")
                 .setContentType(ContentType.JSON)

@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import Pojo.Dish.DishResponse;
 import Pojo.Order.Order;
@@ -18,8 +19,8 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 public class PlaceOrder {
-
-	public static void main(String[] args) {
+@Test
+	public void placeorder() {
 
 
 

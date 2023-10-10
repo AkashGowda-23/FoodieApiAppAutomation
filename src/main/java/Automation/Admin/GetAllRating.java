@@ -3,6 +3,7 @@ package Automation.Admin;
 import static io.restassured.RestAssured.given;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import Pojo.Restaurant;
 import Pojo.Rating.Rating;
@@ -15,7 +16,8 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 public class GetAllRating {
-public static void main(String[] args) {
+	@Test
+public void getallrating() {
 		
 		RequestSpecification req = new RequestSpecBuilder().setBaseUri("http://localhost:8080/api/admin").setContentType(ContentType.JSON).build();
 
@@ -38,7 +40,7 @@ public static void main(String[] args) {
        
        
         
-       RatingResponse ress=responses[0];
+        RatingResponse ress=responses[0];
         Assert.assertEquals(ress.getId(),p.getId() );
         Assert.assertEquals(ress.getUserRating(),p.getUserRating() );
         Assert.assertEquals(ress.getRestaurant().getId(),p.getRestaurant().getId() );

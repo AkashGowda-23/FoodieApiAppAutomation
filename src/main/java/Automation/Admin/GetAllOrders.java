@@ -3,6 +3,8 @@ package Automation.Admin;
 import static io.restassured.RestAssured.given;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import Pojo.Order.Order;
 import Pojo.Order.OrderResponse;
 import io.restassured.builder.RequestSpecBuilder;
@@ -13,8 +15,8 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 public class GetAllOrders {
-	
-public static void main(String[] args) {
+@Test	
+public void getallorder() {
 		
 		RequestSpecification req = new RequestSpecBuilder().setBaseUri("http://localhost:8080/api/admin").setContentType(ContentType.JSON).build();
 

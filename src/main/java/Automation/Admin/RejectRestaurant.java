@@ -3,6 +3,7 @@ package Automation.Admin;
 import static io.restassured.RestAssured.given;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -12,8 +13,8 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 public class RejectRestaurant {
-	
-	public static void main(String[] args) {
+	@Test
+	public void rejectresto() {
         RequestSpecification req = new RequestSpecBuilder()
                 .setBaseUri("http://localhost:8080/api/admin")
                 .setContentType(ContentType.JSON)

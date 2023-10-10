@@ -3,6 +3,7 @@ package Automation.user;
 import static io.restassured.RestAssured.given;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import Pojo.Restaurant;
 import Pojo.RestaurantResponse;
@@ -15,8 +16,8 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 public class GetRestaurantByLoction {
-	
-public static void main(String[] args) {
+	@Test
+public void getrestaurantbyloc() {
 		
 		RequestSpecification req = new RequestSpecBuilder().setBaseUri("http://localhost:8080/api/User").setContentType(ContentType.JSON).build();
 

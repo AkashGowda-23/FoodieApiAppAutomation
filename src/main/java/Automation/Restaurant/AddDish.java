@@ -6,8 +6,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
-import Pojo.RestaurantResponse;
 import Pojo.Dish.Dish;
 import Pojo.Dish.DishResponse;
 import io.restassured.builder.RequestSpecBuilder;
@@ -18,7 +18,8 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 public class AddDish {
-	public static void main(String[] args) {
+	@Test
+	public void Adddish() {
 		
 		
 
