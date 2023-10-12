@@ -30,7 +30,7 @@ public class AddDish {
 				.build();
 
 	Dish p = new Dish();
-	p.setId((long) 21);
+	p.setId((long) 1);
 	p.setName("tandoorii");
 	p.setDescription("grilled");
 	p.setCategory("no veg");
@@ -44,9 +44,9 @@ public class AddDish {
 	
 	
 
-		RequestSpecification request = given().spec(req).body(p).log().all();
+		RequestSpecification request = given().spec(req).queryParam("restaurantId", 1).body(p).log().all();
 
-		Response resp = request.when().post("/addresto").then().spec(res).extract().response();
+		Response resp = request.when().post("/adddish").then().spec(res).extract().response();
 
 		DishResponse response = resp.as(DishResponse.class);
 		

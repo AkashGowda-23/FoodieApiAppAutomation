@@ -14,7 +14,7 @@ import io.restassured.specification.ResponseSpecification;
 
 public class Disabledish {
 	@Test
-	public void disabledih() {
+	public void disabledish() {
         RequestSpecification req = new RequestSpecBuilder()
                 .setBaseUri("http://localhost:8080/restaurants")
                 .setContentType(ContentType.JSON)
@@ -27,7 +27,7 @@ public class Disabledish {
 
         RequestSpecification request = given()
                 .spec(req)
-                .pathParam("dishId", 1)
+                .pathParam("dishId", 4)
                 .log().all();
 
         Response resp = request.when().put("/dish/{dishId}/disable").then().spec(res).extract().response();

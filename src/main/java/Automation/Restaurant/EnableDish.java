@@ -27,7 +27,7 @@ public class EnableDish {
 
         RequestSpecification request = given()
                 .spec(req)
-                .pathParam("dishId", 1)
+                .pathParam("dishId", 4)
                 .log().all();
 
         Response resp = request.when().put("/dish/{dishId}/enable").then().spec(res).extract().response();

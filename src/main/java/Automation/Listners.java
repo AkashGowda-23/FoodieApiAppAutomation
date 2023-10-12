@@ -9,6 +9,7 @@ import com.aventstack.extentreports.Status;
 
 import Utils.ExtentReport;
 
+
 public class Listners  implements ITestListener{
 	ExtentTest test;
 	ExtentReports report=ExtentReport.getreport();
@@ -17,14 +18,14 @@ public class Listners  implements ITestListener{
 		
 	}
 	public void onTestFailure(ITestResult result) {
-		System.out.println("this is fsiled test "+ result.getName());
+		System.out.println("this is failed test " + result.getName() + " " + result.getMethod());
 		test.fail(result.getThrowable(),null);
 		
 		
 	}
 	public void onTestSuccess(ITestResult result) {
 		
-		test.log(Status.PASS,"the test is passed");
+		test.log(Status.PASS,"the test is passed" );
 		
 	}
 	public void onFinish(ITestContext context) {

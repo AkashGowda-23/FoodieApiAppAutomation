@@ -25,10 +25,10 @@ public class AddRestaurant {
 				.build();
 
 		Restaurant p = new Restaurant();
-		p.setId((long) 20);
-		p.setName("raddison");
-		p.setLocation("banglore");
-		p.setContact("radd@gmail.com");
+		p.setId((long) 6);
+		p.setName("raaddisonn");
+		p.setLocation("baangloree");
+		p.setContact("raddd@gmail.com");
 		p.setCategory("hotel");
 
 		RequestSpecification request = given().spec(req).body(p).log().all();
