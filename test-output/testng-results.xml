@@ -1,95 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="16" passed="15" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-11T22:01:22 IST" name="API Test Suite" finished-at="2023-10-11T22:01:26 IST" duration-ms="4197">
+  <suite started-at="2023-10-16T20:27:12 IST" name="Default suite" finished-at="2023-10-16T20:27:14 IST" duration-ms="1898">
     <groups>
     </groups>
-    <test started-at="2023-10-11T22:01:22 IST" name="Add Restaurant Test" finished-at="2023-10-11T22:01:24 IST" duration-ms="2040">
-      <class name="Automation.AddRestaurant">
-        <test-method signature="Addresto()[pri:0, instance:Automation.AddRestaurant@4ebff610]" started-at="2023-10-11T22:01:22 IST" name="Addresto" finished-at="2023-10-11T22:01:24 IST" duration-ms="1954" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Addresto -->
-      </class> <!-- Automation.AddRestaurant -->
-    </test> <!-- Add Restaurant Test -->
-    <test started-at="2023-10-11T22:01:25 IST" name="Get All Restaurant Test" finished-at="2023-10-11T22:01:25 IST" duration-ms="83">
-      <class name="Automation.GetAllRestaurant">
-        <test-method signature="GetAll()[pri:0, instance:Automation.GetAllRestaurant@5f354bcf]" started-at="2023-10-11T22:01:25 IST" name="GetAll" finished-at="2023-10-11T22:01:25 IST" duration-ms="81" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetAll -->
-      </class> <!-- Automation.GetAllRestaurant -->
-    </test> <!-- Get All Restaurant Test -->
-    <test started-at="2023-10-11T22:01:25 IST" name="Approve restaurant" finished-at="2023-10-11T22:01:25 IST" duration-ms="90">
-      <class name="Automation.Admin.ApproveRestaurant">
-        <test-method signature="approveresto()[pri:0, instance:Automation.Admin.ApproveRestaurant@2f67b837]" started-at="2023-10-11T22:01:25 IST" name="approveresto" finished-at="2023-10-11T22:01:25 IST" duration-ms="85" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- approveresto -->
-      </class> <!-- Automation.Admin.ApproveRestaurant -->
-    </test> <!-- Approve restaurant -->
-    <test started-at="2023-10-11T22:01:25 IST" name="Getallorders" finished-at="2023-10-11T22:01:25 IST" duration-ms="42">
+    <test started-at="2023-10-16T20:27:12 IST" name="Default test" finished-at="2023-10-16T20:27:14 IST" duration-ms="1898">
       <class name="Automation.Admin.GetAllOrders">
-        <test-method signature="getallorder()[pri:0, instance:Automation.Admin.GetAllOrders@1046d517]" started-at="2023-10-11T22:01:25 IST" name="getallorder" finished-at="2023-10-11T22:01:25 IST" duration-ms="38" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getallorder -->
-      </class> <!-- Automation.Admin.GetAllOrders -->
-    </test> <!-- Getallorders -->
-    <test started-at="2023-10-11T22:01:25 IST" name="Getallrating" finished-at="2023-10-11T22:01:25 IST" duration-ms="45">
-      <class name="Automation.Admin.GetAllRating">
-        <test-method signature="getallrating()[pri:0, instance:Automation.Admin.GetAllRating@7a362b6b]" started-at="2023-10-11T22:01:25 IST" name="getallrating" finished-at="2023-10-11T22:01:25 IST" duration-ms="43" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getallrating -->
-      </class> <!-- Automation.Admin.GetAllRating -->
-    </test> <!-- Getallrating -->
-    <test started-at="2023-10-11T22:01:25 IST" name="RejectRestaurant" finished-at="2023-10-11T22:01:25 IST" duration-ms="60">
-      <class name="Automation.Admin.RejectRestaurant">
-        <test-method signature="rejectresto()[pri:0, instance:Automation.Admin.RejectRestaurant@1c93f6e1]" started-at="2023-10-11T22:01:25 IST" name="rejectresto" finished-at="2023-10-11T22:01:25 IST" duration-ms="51" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- rejectresto -->
-      </class> <!-- Automation.Admin.RejectRestaurant -->
-    </test> <!-- RejectRestaurant -->
-    <test started-at="2023-10-11T22:01:25 IST" name="Add dish" finished-at="2023-10-11T22:01:25 IST" duration-ms="121">
-      <class name="Automation.Restaurant.AddDish">
-        <test-method signature="Adddish()[pri:0, instance:Automation.Restaurant.AddDish@363a52f]" started-at="2023-10-11T22:01:25 IST" name="Adddish" finished-at="2023-10-11T22:01:25 IST" duration-ms="115" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Adddish -->
-      </class> <!-- Automation.Restaurant.AddDish -->
-    </test> <!-- Add dish -->
-    <test started-at="2023-10-11T22:01:25 IST" name="delete dish" finished-at="2023-10-11T22:01:25 IST" duration-ms="147">
-      <class name="Automation.Restaurant.DeleteDish">
-        <test-method signature="Deletedish()[pri:0, instance:Automation.Restaurant.DeleteDish@3adcc812]" started-at="2023-10-11T22:01:25 IST" name="Deletedish" finished-at="2023-10-11T22:01:25 IST" duration-ms="112" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="getallorder()[pri:0, instance:Automation.Admin.GetAllOrders@4efc180e]" started-at="2023-10-16T20:27:12 IST" name="getallorder" finished-at="2023-10-16T20:27:14 IST" duration-ms="1843" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
             <message>
-              <![CDATA[1 expectation failed.
-Expected status code <404> but was <200>.
-]]>
+              <![CDATA[com/github/fge/jackson/JsonLoader]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <404> but was <200>.
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
-at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:91)
-at io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:321)
-at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:298)
-at Automation.Restaurant.DeleteDish.Deletedish(DeleteDish.java:34)
+              <![CDATA[java.lang.NoClassDefFoundError: com/github/fge/jackson/JsonLoader
+at io.restassured.module.jsv.JsonSchemaValidator$3.createSchemaInstance(JsonSchemaValidator.java:155)
+at io.restassured.module.jsv.JsonSchemaValidator$3.createSchemaInstance(JsonSchemaValidator.java:152)
+at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:284)
+at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:157)
+at Automation.Admin.GetAllOrders.getallorder(GetAllOrders.java:31)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -118,77 +47,18 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.github.fge.jackson.JsonLoader
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+... 33 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NoClassDefFoundError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Deletedish -->
-      </class> <!-- Automation.Restaurant.DeleteDish -->
-    </test> <!-- delete dish -->
-    <test started-at="2023-10-11T22:01:25 IST" name="disable dish" finished-at="2023-10-11T22:01:26 IST" duration-ms="94">
-      <class name="Automation.Restaurant.Disabledish">
-        <test-method signature="disabledish()[pri:0, instance:Automation.Restaurant.Disabledish@4b41dd5c]" started-at="2023-10-11T22:01:25 IST" name="disabledish" finished-at="2023-10-11T22:01:26 IST" duration-ms="88" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disabledish -->
-      </class> <!-- Automation.Restaurant.Disabledish -->
-    </test> <!-- disable dish -->
-    <test started-at="2023-10-11T22:01:26 IST" name="enable dish" finished-at="2023-10-11T22:01:26 IST" duration-ms="74">
-      <class name="Automation.Restaurant.EnableDish">
-        <test-method signature="enableDish()[pri:0, instance:Automation.Restaurant.EnableDish@1603cd68]" started-at="2023-10-11T22:01:26 IST" name="enableDish" finished-at="2023-10-11T22:01:26 IST" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enableDish -->
-      </class> <!-- Automation.Restaurant.EnableDish -->
-    </test> <!-- enable dish -->
-    <test started-at="2023-10-11T22:01:26 IST" name=" dishbyid" finished-at="2023-10-11T22:01:26 IST" duration-ms="39">
-      <class name="Automation.Restaurant.GetDishByid">
-        <test-method signature="getDishbyid()[pri:0, instance:Automation.Restaurant.GetDishByid@4f0100a7]" started-at="2023-10-11T22:01:26 IST" name="getDishbyid" finished-at="2023-10-11T22:01:26 IST" duration-ms="37" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDishbyid -->
-      </class> <!-- Automation.Restaurant.GetDishByid -->
-    </test> <!--  dishbyid -->
-    <test started-at="2023-10-11T22:01:26 IST" name=" updatedish" finished-at="2023-10-11T22:01:26 IST" duration-ms="96">
-      <class name="Automation.Restaurant.UpdateDish">
-        <test-method signature="updatedish()[pri:0, instance:Automation.Restaurant.UpdateDish@6581dc0a]" started-at="2023-10-11T22:01:26 IST" name="updatedish" finished-at="2023-10-11T22:01:26 IST" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updatedish -->
-      </class> <!-- Automation.Restaurant.UpdateDish -->
-    </test> <!--  updatedish -->
-    <test started-at="2023-10-11T22:01:26 IST" name=" get resataurant by location" finished-at="2023-10-11T22:01:26 IST" duration-ms="69">
-      <class name="Automation.user.GetRestaurantByLoction">
-        <test-method signature="getrestaurantbyloc()[pri:0, instance:Automation.user.GetRestaurantByLoction@32c4e8b2]" started-at="2023-10-11T22:01:26 IST" name="getrestaurantbyloc" finished-at="2023-10-11T22:01:26 IST" duration-ms="66" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getrestaurantbyloc -->
-      </class> <!-- Automation.user.GetRestaurantByLoction -->
-    </test> <!--  get resataurant by location -->
-    <test started-at="2023-10-11T22:01:26 IST" name=" get resataurant by name" finished-at="2023-10-11T22:01:26 IST" duration-ms="80">
-      <class name="Automation.user.GetRestaurantByName">
-        <test-method signature="getbyname()[pri:0, instance:Automation.user.GetRestaurantByName@4f5991f6]" started-at="2023-10-11T22:01:26 IST" name="getbyname" finished-at="2023-10-11T22:01:26 IST" duration-ms="76" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getbyname -->
-      </class> <!-- Automation.user.GetRestaurantByName -->
-    </test> <!--  get resataurant by name -->
-    <test started-at="2023-10-11T22:01:26 IST" name="give rating" finished-at="2023-10-11T22:01:26 IST" duration-ms="77">
-      <class name="Automation.user.GiveRating">
-        <test-method signature="giverating()[pri:0, instance:Automation.user.GiveRating@32c726ee]" started-at="2023-10-11T22:01:26 IST" name="giverating" finished-at="2023-10-11T22:01:26 IST" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- giverating -->
-      </class> <!-- Automation.user.GiveRating -->
-    </test> <!-- give rating -->
-    <test started-at="2023-10-11T22:01:26 IST" name="place order" finished-at="2023-10-11T22:01:26 IST" duration-ms="117">
-      <class name="Automation.user.PlaceOrder">
-        <test-method signature="placeorder()[pri:0, instance:Automation.user.PlaceOrder@7f0d96f2]" started-at="2023-10-11T22:01:26 IST" name="placeorder" finished-at="2023-10-11T22:01:26 IST" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- placeorder -->
-      </class> <!-- Automation.user.PlaceOrder -->
-    </test> <!-- place order -->
-  </suite> <!-- API Test Suite -->
+        </test-method> <!-- getallorder -->
+      </class> <!-- Automation.Admin.GetAllOrders -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

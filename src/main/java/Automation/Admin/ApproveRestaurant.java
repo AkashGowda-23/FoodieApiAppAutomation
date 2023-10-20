@@ -26,7 +26,7 @@ public class ApproveRestaurant {
 
         RequestSpecification request = given()
                 .spec(req)
-                .pathParam("restaurantId", 3)
+                .pathParam("restaurantId", 7)
                 .log().all();
 
         Response resp = request.when().post("/approveRestaurant/{restaurantId}").then().spec(res).extract().response();

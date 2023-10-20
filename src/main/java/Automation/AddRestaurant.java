@@ -25,8 +25,8 @@ public class AddRestaurant {
 				.build();
 
 		Restaurant p = new Restaurant();
-		p.setId((long) 6);
-		p.setName("raaddisonn");
+		p.setId((long) 7);
+		p.setName("raaddisonnn");
 		p.setLocation("baangloree");
 		p.setContact("raddd@gmail.com");
 		p.setCategory("hotel");

@@ -4,6 +4,15 @@
   <listeners>
     <listener class-name="Automation.Listners"/>
   </listeners>
+  <test thread-count="5" name="Add Restaurant Test(failed)">
+    <classes>
+      <class name="Automation.AddRestaurant">
+        <methods>
+          <include name="Addresto"/>
+        </methods>
+      </class> <!-- Automation.AddRestaurant -->
+    </classes>
+  </test> <!-- Add Restaurant Test(failed) -->
   <test thread-count="5" name="delete dish(failed)">
     <classes>
       <class name="Automation.Restaurant.DeleteDish">
@@ -13,4 +22,13 @@
       </class> <!-- Automation.Restaurant.DeleteDish -->
     </classes>
   </test> <!-- delete dish(failed) -->
+  <test thread-count="5" name=" dishbyid(failed)">
+    <classes>
+      <class name="Automation.Restaurant.GetDishByid">
+        <methods>
+          <include name="getDishbyid"/>
+        </methods>
+      </class> <!-- Automation.Restaurant.GetDishByid -->
+    </classes>
+  </test> <!--  dishbyid(failed) -->
 </suite> <!-- Failed suite [API Test Suite] -->
